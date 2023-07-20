@@ -1,6 +1,8 @@
 # Entrega3_CapuzziJavier_DATENG_51935
 
-Las Variables estan en un archivo .env
+Las claves estan en un archivo .env
+
+
 REDSHIFT_HOST= data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com 
 REDSHIFT_PORT=5439
 REDSHIFT_DB=REDSHIFT_DB
