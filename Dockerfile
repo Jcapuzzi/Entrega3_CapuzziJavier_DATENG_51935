@@ -20,10 +20,4 @@ RUN python -m pip install --upgrade pip
 RUN python -m pip install yfinance
 RUN python -m pip install SQLAlchemy
 RUN python -m pip install pyarrow
-
-
-# RUN python -m pip install apache-airflow-providers-apache-spark
-# RUN python -m pip install 'apache-airflow[amazon]'
-# RUN python -m pip install apache-airflow-providers-amazon
-
-# docker build -t lucastrubiano/airflow:airflow_2_6_2_yfinance .
+RUN python -m pip install psycopg2-binary
