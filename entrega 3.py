@@ -35,7 +35,7 @@ def importar_data():
  
 def transformar():
     
- hist=pd.read_csv("opt/airfow/dags/hist.csv")
+ hist=pd.read_csv("/opt/airflow/dags/hist.csv")
  hist= hist.rename(columns={"Open":"Apertura","High":"Precio_alto","Low":"Precio_bajo","Close":"Cierre","Volume":"Volumen","Dividends":"Dividendos","Stock Splits":"Stock","Date":"Dia"})
  hist= hist.drop(columns=["Dividendos","Stock","Volumen"])
  hist.insert(
